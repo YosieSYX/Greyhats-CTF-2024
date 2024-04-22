@@ -1,0 +1,8 @@
+To Install John the Ripper in Mac:
+If you have Homebrew installed already, use: 
+brew install john
+If you don't have it, install it first using: 
+1. install xcode command line tools: 
+xcode-select --install
+2. set up homebrew:
+curl -fsSL -o install.sh https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh
