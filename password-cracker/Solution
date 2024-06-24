@@ -1,4 +1,4 @@
-##To Install John the Ripper in Mac:
+## To Install John the Ripper in Mac:
 If you have Homebrew installed already, use: 
 $brew install john
 If you don't have it, install it first using: 
@@ -9,7 +9,7 @@ curl -fsSL -o install.sh https://raw.githubusercontent.com/Homebrew/install/HEAD
 3. install John the Ripper
 $brew install john
 
-##To Crack Zipfile Password:
+## To Crack Zipfile Password:
 1.get the password hash of a zip file:
 $ zip2john file.zip > zip.hashes    //This command get the hash from the zip file and store it in the zip.hashes file.
 2.then crack the hash using John the Ripper
